@@ -73,8 +73,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/*  All things in the SEO section  */
-.search-engine-optimization {
+
+/* Combining the selectos for the box styling */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,25 +84,18 @@ p {
     color: #ffffff;
 }
 
+/*  All things in the SEO section  */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 
 .search-engine-optimization img {
     max-height: 200px;
 }
 
 /*  All things in the Reputaiton Management section  */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -112,15 +106,6 @@ p {
 }
 
 /*  All things for the Social Media Marketing section  */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -154,12 +139,13 @@ p {
     background-color: #2589bd;
 }
 
-/* all things benefit-lead */
-.benefit-lead {
+/* combines these selectos */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* all things benefit-lead */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -172,10 +158,6 @@ p {
 }
 
 /* all things benefit-brand */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -188,18 +170,10 @@ p {
 }
 
 /* all things benefit-cost */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
 
 .benefit-cost img {
     display: block;
@@ -207,9 +181,7 @@ p {
     max-width: 150px;
 }
 
-
 /* begin footer styling */
-
 .footer {
     padding: 30px;
     clear: both;
